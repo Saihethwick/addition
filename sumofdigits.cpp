@@ -1,0 +1,15 @@
+#include<iostream>
+int main()
+{
+	int a,sum=0,n;
+	std::cout<<"enter the number";
+	std::cin>>a;
+	while(a!=0)
+	{
+		n=a%10;
+		sum=sum+n;
+		a=a/10;
+	}
+	std::cout<<sum;
+	return 0;	
+}
